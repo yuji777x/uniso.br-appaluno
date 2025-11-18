@@ -93,6 +93,11 @@
             /* ensure logo elements fit mobile */
             .sidebar-top .logo{width:88px;height:88px}
             .sidebar-top .logo img{width:100%;height:100%;object-fit:cover}
+            /* Make form fields stack and buttons full width on mobile */
+            .form{max-width:100%;padding:12px}
+            .form .row{flex-direction:column;align-items:stretch}
+            .form input[type=text], .form input[type=file], .btn{width:100%}
+            .btn{display:inline-block;text-align:center}
         }
     </style>
 </head>
