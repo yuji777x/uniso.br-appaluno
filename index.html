@@ -88,7 +88,7 @@
 
             /* container spacing for small screens */
             .container{padding:14px}
-
+z
             /* make the card full-width but compact */
             .card{width:100%;max-width:480px;margin:14px auto;border-radius:16px}
             .card .card-head{padding:14px;gap:12px;border-top-left-radius:16px;border-top-right-radius:16px}
@@ -111,9 +111,20 @@
             .form input[type=text], .form input[type=file], .btn{width:100%}
             .btn{display:inline-block;text-align:center}
         }
-        /* hamburger (hidden by default, shown only on mobile) */
-        .hamburger{display:none;border:0;background:transparent;color:#fff;width:44px;height:44px;align-items:center;justify-content:center;cursor:pointer}
-        .hamburger .bar{display:block;width:20px;height:2px;background:#fff;margin:4px 0;border-radius:2px}
+        /* hamburger (hidden by default, shown only on mobile) - styled as 3 stacked bars */
+        .hamburger{display:none;border:0;background:transparent;color:#fff;width:44px;height:44px;align-items:center;justify-content:center;cursor:pointer;padding:6px;box-sizing:border-box}
+        .hamburger{display:none}
+        .hamburger{display:none}
+        .hamburger{display:none}
+        .hamburger{display:none}
+        .hamburger{display:none}
+        .hamburger{display:none}
+        .hamburger{display:none}
+        .hamburger{display:none}
+        .hamburger{display:none}
+        .hamburger{display:none}
+        .hamburger{display:inline-flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:6px;padding:10px}
+        .hamburger .bar{display:block;width:22px;height:3px;background:#fff;border-radius:3px}
 
         @media (max-width:600px){
             .hamburger{display:flex;position:absolute;left:10px;top:6px;z-index:1300}
